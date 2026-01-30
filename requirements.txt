@@ -1,9 +1,9 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
-fastapi
-gunicorn
-uvicorn
-torch==2.2.2+cpu
-torchvision==0.17.2+cpu
+fastapi==0.128.0
+gunicorn==24.1.1
+uvicorn==0.40.0
+torch==2.10.0+cpu
+torchvision==0.15.2+cpu
 python-multipart
 pillow
 scikit-learn
