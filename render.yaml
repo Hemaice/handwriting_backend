@@ -3,6 +3,6 @@ services:
     name: handwriting-backend
     env: python
     plan: free
-    runtime: python-3.10
+    runtime: python3.10
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn -w 1 -k uvicorn.workers.UvicornWorker app:app --bind 0.0.0.0:$PORT
